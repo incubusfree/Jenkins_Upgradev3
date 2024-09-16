@@ -29,7 +29,7 @@ public class TestGreeter {
 
   @Test
 public void intentionallyFail() {
-    assertTrue(True);  // Corrected
+    assertTrue(true);  // Corrected
 }
 
 

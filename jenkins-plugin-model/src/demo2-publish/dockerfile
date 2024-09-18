@@ -9,7 +9,7 @@ WORKDIR /jenkins-plugin-model//src/Pi.Web
 RUN dotnet restore
 
 # app image
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine
+FROM mcr.microsoft.com/dotnet/aspnet:7.0
 
 EXPOSE 80
 ENTRYPOINT ["dotnet", "Pi.Web.dll"]

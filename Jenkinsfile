@@ -7,7 +7,7 @@ pipeline {
                         echo 'We are Starting the Testing'
                   }
             }
-            stage('Build') {
+          #  stage('Build') {
                   steps {
                         echo 'Building Sample Maven Project'
                   }
